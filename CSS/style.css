@@ -1,0 +1,38 @@
+
+.popular-thumnil:hover{
+    box-shadow: 0px 0px 10px 2px gray; 
+}
+
+.popular-image{
+    transition: 1s;
+}
+
+.popular-image:hover{
+    transform: scale(1.2);
+}
+
+.client-section{
+    background-image: url(../images/client-background-image.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.item h3{
+    padding: 150px;
+    color: white;
+    text-align: center;
+}
+
+.btn-primary:hover{
+    box-shadow: 0px 0px 10px 2px gray;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+

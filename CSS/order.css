@@ -1,0 +1,80 @@
+body{
+    height: 100%;
+    background: white;
+    color: black;
+}
+.contents{
+    height: 600px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+}
+.banner_information .item_box .search_part{
+    margin-top: 80px;
+    justify-content : space-between;
+    height: 55px;
+    width: 100%;
+    display: flex;
+}
+/* .banner_information .item_box .search_part .filter{
+    margin-left: 150px;
+    height: 50px;
+    width: 20%;
+}
+.banner_information .item_box .search_part .filter .filter_select{
+    text-align: center;
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#filter_selectID option{
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    border: none;
+    border-radius: 15px;
+} */
+.banner_information .item_box .search_part .search-box{
+    margin: auto;
+    height: 50px;
+    width: 45%;
+}
+.banner_information .item_box .search_part .search-box .search_bar{
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.1);
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner .banner_information .item_box .buttons-search{
+    margin: auto;
+    margin-top: 80px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+.banner .banner_information .item_box .buttons-search button {
+    width: 250px;
+    height: 50px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    border-color: coral;
+    border-radius: 15px;
+}
+.banner .banner_information .item_box .buttons-search button:hover {
+    width: 250px;
+    background: coral;
+    color: black;
+    border: none;
+}
+hr.divider{
+    border-top: 18px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}

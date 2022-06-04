@@ -1,0 +1,616 @@
+body{
+    background: url(../photos/background.jpg);
+    background-color:rgba(255, 255, 255, 0.9);
+    color: black;
+    margin-top: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+	position : fixed;
+    height: 60px;
+	top : 0;
+	left : 0;
+	width : 100%;
+	display : flex;
+	justify-content : space-between;
+	align-items : center;
+	transition : 0.6s;
+	padding : 25px 0px;
+	z-index : 10000;
+    background: rgba(0, 0, 0, 0.6);
+}
+header.sticky{
+	padding : 5px, 100px;
+	height : 20px;
+	background: rgba(0, 0, 0, 0.7);
+}
+header .logo{
+	position : relative;
+	font-weight : 700;
+	color : #fff;
+	text-decoration : none;
+	font-size : 2em;
+	display: flex;
+	text-transform : uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing : 2px;
+	transition : 0.6s;
+    margin-left: 100px;
+}
+header ul{
+	position : relative;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+    margin-right: 170px;
+}
+header ul li{
+	position : relative;
+	list-style : none;
+}
+header ul li a{
+	position : relative;
+	margin : 0 15px;
+	text-decoration : none;
+	color : #fff;
+	letter-spacing : 2px;
+	font-weight : bold;
+	transition : 0.6s;
+    font-size: 17px;
+}
+header ul li a:hover {
+    text-decoration : none;
+	color: coral;
+	padding: 5px;
+	display: block;
+}
+header.sticky ul li a:hover{
+	color: coral;
+	padding: 5px;
+	display: block;
+}
+header.sticky .logo,
+header.sticky ul li a{
+	color : white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+    background: url("../video/meat-animation-hero.gif");
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 450px;
+    border-bottom-right-radius: 450px;
+    position: relative;
+}
+.banner .banner_back{
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+    height: 800px;
+    width: 100%;
+    border-bottom-left-radius: 450px;
+    border-bottom-right-radius: 450px;
+}
+.banner .banner_information{
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    border-bottom-left-radius: 450px;
+    border-bottom-right-radius: 450px;
+}
+.banner .banner_information .item_box{
+    margin: auto;
+    color: white;
+    height: 400px;
+    width: 50%;
+    margin-top: 200px;
+}
+.banner .banner_information .item_box img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner .banner_information .item_box .l-name{
+    margin: auto;
+    height: 60px;
+    width: 280px;
+    display: flex;
+    margin-top: 60px;
+}
+.banner .banner_information .item_box .l-name h1{
+    margin: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.banner .banner_information .item_box p{
+    margin-top: 60px;
+    text-align: center;
+}
+.banner .banner_information .item_box .buttons{
+    margin: auto;
+    margin-top: 100px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+#add_reservation{
+    width: 250px;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    background: coral;
+    border-radius: 15px;
+    border: none;
+}
+#add_reservation a{
+    text-decoration: none;
+    color: black;
+}
+#order_food{
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    border-color: coral;
+    border-radius: 15px;
+}
+#order_food a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#order_food:hover{
+    width: 250px;
+    margin-left: 20px;
+    background: coral;
+    color: black;
+    border: none;
+}
+#order_food a:hover{
+    color: black;
+    font-size: 20px;
+}
+#add_reservation:hover{
+    background: rgb(245, 98, 44);
+}
+
+
+
+
+
+
+
+
+
+
+body, html{
+    height: 100%;
+}
+
+
+
+
+
+
+
+.about_our_service{
+    height: 600px;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.4);
+}
+.about_our_service .items{
+    margin: auto;
+    height: 400px;
+    width: 30%;
+    padding-top: 100px;
+}
+.about_our_service .items h1{
+    font-size: 50px;
+    text-align: center; 
+    font-style: bold; 
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: 700;
+    margin-top: 0px;
+}
+.about_our_service .items ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 30px;
+    list-style: none;
+}
+.about_our_service .items ul li::before{
+    content: '✓';
+    color: green;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+.seg_one{
+    position: relative;
+    background: url("../photos/fastFood_1.jpg");
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 450px;
+    border-top-right-radius: 450px;
+    border-bottom-left-radius: 450px;
+    border-bottom-right-radius: 450px;
+}
+.seg_one_back{
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    height: 800px;
+    width: 100%;
+    border-top-left-radius: 450px;
+    border-top-right-radius: 450px;
+    border-bottom-left-radius: 450px;
+    border-bottom-right-radius: 450px;
+}
+.seg_one .seg_one_information{
+    position: absolute;
+    height: 800px;
+    color: black;
+    width: 100%;
+}
+.seg_one .seg_one_information .seg_one_item_box{
+    height: 800px;
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+.seg_one .seg_one_information .seg_one_item_box .design{
+    margin-top: 180px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.seg_one .seg_one_information .seg_one_item_box .design hr.solid-divider {
+    border-top: 85px solid white;
+    width: 1px;
+}
+.seg_one .seg_one_information .seg_one_item_box h1{
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.seg_one .seg_one_information .seg_one_item_box p{
+    margin-top: 60px;
+    text-align: center;
+}
+.seg_one .seg_one_information .seg_one_item_box #add_reservation{
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: coral;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.seg_one .seg_one_information .seg_one_item_box #add_reservation:hover{
+    background: rgb(245, 98, 44);
+}
+
+
+
+
+
+
+
+
+
+.developers{
+    position: relative;
+    margin-top: 0px;
+    height: 700px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+}
+.developers .textIn{
+    color: black;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.developers .imageIn{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    top: 260px;
+    right: 46%;
+}
+.developers .container{
+    color: black;
+    position: absolute;
+    margin-top: 150px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.developers .container .information{
+    color: black;
+    margin-top: 0px;
+    margin: auto;
+    height: 200px;
+    width: 17.5%;
+}
+.developers .container .information .img_oc{
+    margin: auto;
+    height: 120px;
+    width: 310px;
+    display: flex;
+}
+.developers .container .information .img_oc img{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.developers .container .information .img_oc p{
+    margin-top: 50px;
+}
+.developers .container .information .info{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.developers .container .information .info h3{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+.footer_div{
+    background: url("../photos/party-group-of-people.jpg");
+    height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 450px;
+    border-top-right-radius: 450px;
+    position: relative;
+}
+.footer_div .footer_back{
+    position: absolute;
+    background-color: black;
+    opacity: 0.9;
+    height: 850px;
+    width: 100%;
+    border-top-left-radius: 450px;
+    border-top-right-radius: 450px;
+}
+.footer_div .footer_information{
+    position: absolute;
+    height: 850px;
+    width: 100%;
+}
+.footer_div .footer_information .item_box{
+    margin: auto;
+    color: white;
+    height: 500px;
+    width: 50%;
+}
+.footer_div .footer_information .item_box h1{
+
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.footer_div .footer_information .item_box img{
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_div .footer_information .item_box p{
+    margin-top: 60px;
+    text-align: center;
+}
+.footer_div .footer_information .item_box #order_food{
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: coral;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer_div .footer_information .item_box #order_food:hover{
+    background: rgb(245, 98, 44);
+}
+.footer_div .footer_information .item_box .social{
+	margin: auto;
+	max-width : 320px;
+	min-width: 100px;
+	max-height : 25%;
+	min-height: 5%;
+	padding: 10px;
+    margin-top: 60px;
+}
+.footer_div .footer_information .item_box .fa {
+	padding: 10px;
+	font-size: 20px;
+	max-width: 40px;
+    min-width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 10px;
+    margin-left: 0px;
+}
+.footer_div .footer_information .item_box .fa:hover {
+    opacity: 0.7;
+}
+.footer_div .footer_information .item_box .fa-facebook {
+  background: white;
+  color: black;
+  border-radius: 50%;
+}
+
+.footer_div .footer_information .item_box .fa-google {
+  background: white;
+  color: black;
+  border-radius: 50%;
+}
+
+.footer_div .footer_information .item_box .fa-instagram {
+  background: white;
+  color: black;
+  border-radius: 50%;
+}
+
+.footer_div .footer_information .item_box .fa-linkedin {
+  background: white;
+  color: black;
+  border-radius: 50%;
+}
+
+.footer_div .footer_information .item_box .fa-youtube {
+  background: white;
+  color: black;
+  border-radius: 50%;
+}
+.footer_div .footer_information .item_box .fa-reddit {
+  background: white;
+  color: black;
+  border-radius: 50%;
+}
+.footer_div .copyright{
+    position: absolute;
+    bottom: 20px;
+    color: coral;
+    right: 40%;
+    font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form_holder{
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+.form_holder #loginform
+{
+    margin: auto;
+    width:500px;
+    height:530px;
+    margin-top:40px;
+    background-color:white;
+    border-radius:3px;
+    box-shadow:0px 0px 1000px 0px #131212;
+    padding:10px;
+    box-sizing:border-box;
+    font-family:helvetica;
+    visibility:hidden;
+    display:none;
+    transition: 2s;
+}
+.form_holder #loginform #close_login
+{
+    position:absolute;
+    top:25px;
+    left:1140px;
+    width:40px;
+    height:40px;
+}
+.form_holder #loginform form{
+    margin: auto;
+    width: 270px;
+    height: 370px;
+    margin-top: 30px;
+}
+.form_holder #loginform .image_logo_admin{
+    height: 200px;
+    width: 200px;
+    margin-left: 35px;
+}
+.form_holder #loginform #login
+{
+    width:250px;
+    height:40px;
+    border:2px solid silver;
+    border-radius:3px;
+    padding:5px;
+    text-align: center;
+}
+.form_holder #loginform #password
+{
+    margin-top:5px;
+    width:250px;
+    height:40px;
+    border:2px solid silver;
+    border-radius:3px;
+    padding:5px;
+    text-align: center;
+}
+.form_holder #loginform #dologin
+{
+    margin-top:10px;
+    margin-left: 30px;
+    width:200px;
+    height:40px;
+    border:none;
+    border-radius:3px;
+    color: coral;
+    background-color:rgb(75, 71, 71);
+    font-weight: 600;
+    font-size:20px;
+}

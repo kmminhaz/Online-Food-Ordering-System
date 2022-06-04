@@ -1,0 +1,7 @@
+siabd.org
+Shared IP Address
+198.187.29.26
+
+DB Name: siabdmzz_mahdiya
+DB User: siabdmzz_mahdiyabd
+DB Pass: M@hd1yABd
